@@ -29,26 +29,26 @@ Redis (Remote Dictionary Server) - это высокопроизводитель
 1. Сохранение значения в кэш:
 
 ```bash
-curl "http://localhost:8080/set?key=test&value=hello"
+curl "http://5.129.194.73:8080/set?key=test&value=hello"
 ```
 
-!СКРИНШОТ
+<img width="836" height="453" alt="изображение" src="https://github.com/user-attachments/assets/0c808e36-5242-4a78-a6bd-a5f176dffe54" />
 
 2. Получение значения из кэша:
 
 ```bash
-curl "http://localhost:8080/get?key=test"
+curl "http://5.129.194.73:8080/get?key=test"
 ```
 
-!СКРИНШОТ
+<img width="839" height="458" alt="изображение" src="https://github.com/user-attachments/assets/2997d7a4-604b-43a1-9f29-66f6f46ec2b5" />
 
 3. Проверка TTL ключа:
 
 ```bash
-curl "http://localhost:8080/ttl?key=test"
+curl "http://5.129.194.73:8080/ttl?key=test"
 ```
 
-!СКРИНШОТ
+<img width="841" height="457" alt="изображение" src="https://github.com/user-attachments/assets/38191f1a-4b6b-4efb-9c91-93f64d14c406" />
 
 # Ответы на контрольные вопросы
 
